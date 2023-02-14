@@ -1,0 +1,117 @@
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#cssmenu {
+  width: 96%;
+  color: #ffffff;
+  margin:50px auto;
+  
+}
+#cssmenu ul ul {
+  display: none;
+}
+.align-right {
+  float: right;
+}
+#cssmenu > ul > li > a {
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  text-decoration: none;
+ color: #292929;
+   font-family: 'dejavu_sansbook';
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  height: 40px;
+  	-webkit-transition: all 0.3s;
+	 -moz-transition: all 0.3s;
+	 -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#cssmenu > ul > li > a:hover{
+	color: #fff;
+}
+
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li.open > a {
+ color: #292929;
+ background-color: rgba(54,59,63, 0.0);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  -webkit-transition: all 0.3s;
+	 -moz-transition: all 0.3s;
+	 -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#cssmenu > ul > li.active > a:hover{
+	color: #f16767;
+}
+#cssmenu > ul > li.open > a:hover{
+	color: #f16767;
+}
+
+.holder {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.holder::after,
+.holder::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 6px;
+  right: 20px;
+  z-index: 10;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.holder::after {
+  top: 17px;
+  border-top: 2px solid #00acf2;
+  border-left: 2px solid #00acf2;
+}
+
+.holder::before {
+  top: 18px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+  border-top-color: inherit;
+  border-left-color: inherit;
+}
+#cssmenu ul ul li a {
+  cursor: pointer;
+  border-bottom: 1px solid rgba(248, 200, 102, 0.35);
+  padding: 10px 20px;
+  z-index: 1;
+  text-decoration: none;
+  font-size: 13px;
+  color: #fff;
+   background-color: rgba(54,59,63, 0.5);
+ 
+  	-webkit-transition: all 0.3s;
+	 -moz-transition: all 0.3s;
+	 -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#cssmenu ul ul li a:hover{
+	color: #f16767;
+}

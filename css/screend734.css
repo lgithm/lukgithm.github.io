@@ -1,0 +1,208 @@
+
+ @media only screen and (max-width: 1600px) {
+	#logo{
+	
+	width: 160px;
+	}
+	
+}
+ @media only screen and (max-width: 1400px) {
+	#logo{
+	
+	width: 130px;
+	top: 20px;
+	left: -25px;
+	}
+	
+}
+ @media only screen and (max-width: 1300px) {
+	#logo{
+	
+	width: 130px;
+	top: 20px;
+	left: -30px;
+	}
+	
+}
+@media only screen and (max-width: 1220px) {
+	header{
+		background-image: none;
+		background-color:rgba(255,255,255,0.7);
+	}
+	.leng{
+		top: 95px;
+		right: 25px;
+	}
+	nav{
+		height: 90px;
+	}
+  
+	nav>ul{
+		display: none;
+	}
+	.ul_top_color{
+		display: none;
+	}
+  #nav-bar{
+  	display: block;
+  }
+  #Projects{
+
+	text-align: center;
+}
+.leng {
+    top: 15px;
+    right:25px;
+}
+}
+@media only screen and (max-width: 1100px) {
+
+.form{
+	width: 350px;
+}
+.text1{
+	width: 95%;
+	
+}
+.mail{
+	position: absolute;
+	left: -65px;
+	margin-top: 4px;
+}
+.textarea1{
+	margin-top: 70px;
+}
+#logo{
+	left: 10px;
+}
+}
+@media only screen and (max-width: 1000px) {
+.footer>ul{
+	display: none;
+}
+ .footer{
+ 	width: 300px;
+ 	
+ 	margin: auto;
+ }
+ .footer_logo {
+   
+    right: 90px;
+}
+.footer-icon {
+   
+    right: 50px;
+   
+}
+.h1{
+  display: none;
+}
+}
+@media only screen and (max-width: 850px) {
+
+.form{
+	position: relative;
+	width: 300px;
+	margin-top: 350px;
+	margin-left: 40%;
+}
+.footer-contacts{
+	
+	margin-left: 20%;
+	margin-top: -340px;
+}
+#baground {
+   
+    height: 350px !important;
+   
+}
+
+}
+@media only screen and (max-width: 750px) {
+
+.footer-contacts{
+	
+	left: 10%;
+}
+}
+@media only screen and (max-width: 650px) {
+
+.footer-contacts{
+	left: 10%;
+}
+}
+@media only screen and (max-width: 600px) {
+	.ulcontacts{
+  	left:10px;
+  }
+  
+.footer_contact pre{
+   
+    left: 7%;
+   
+}
+.footer-contacts{
+	
+	left: 5%;
+}
+#logo{
+	top: 50px;
+	left: 5px;
+}
+.header_contacts{
+	margin: 0;
+}
+#header_contacts{
+	width: 400px;
+	margin-top: 5px;
+}
+.contacts_icon {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}
+.header_contacts pre {
+   margin-left: -20px;
+}
+
+
+}
+@media only screen and (max-width: 500px) {
+	.ulcontacts li:nth-child(2){
+  	display: none;
+  }
+  .ulcontacts{
+  	left:100px;
+  }
+  .footer_contact pre{
+   
+    font-size: 20px;
+   
+}
+  .footer-contacts{
+	
+	margin-left: 10%;
+		
+}
+.form {
+    
+    margin-left: 35%;
+   
+}
+	
+}
+@media only screen and (max-width: 400px) {
+
+
+  .footer-contacts{
+	
+	margin-left: 10%;
+		
+}
+
+}
+
+
+
+
+
